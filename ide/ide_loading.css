@@ -6,7 +6,7 @@
 	width			:110vw;
 	height			:120vh;
 	z-index			:1000;
-	background:rgba(160,160,160,0.8);
+	background:rgba(160,160,160,0.2);
 }
 
 .nowloading {

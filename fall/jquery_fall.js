@@ -3,12 +3,7 @@ $(function(){
 	var Tag="";
 	for(var T1=0; T1<30;T1++){
 		var T2=T1 % 4;
-		Tag += 
-		'<img id=\"f'+
-		T1+
-		'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+
-		T2+
-		'.png\" style=\"position:absolute;top:-20px;\'>';
+		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" style=\"position:absolute;top:-20px;\'>';
 	}
 
 	if( 

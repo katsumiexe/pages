@@ -1,5 +1,6 @@
 $(function(){ 
 	var S=0;
+	var Tag="";
 	for(var T1=0; T1<30;T1++){
 		var T2=T1 % 4;
 		Tag += 

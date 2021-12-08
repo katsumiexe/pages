@@ -20,7 +20,8 @@ $(function(){
 		var Rnd_ed=Math.floor(Math.random() * 600);
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
-		$('#f'+N).css({'top':'-30px','left':Rnd_st+'px'});
+//		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
+		$('#base img').css({'top':'-10vh','left':Rnd_st+'px'});
 		$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'px'},Rnd_sp);
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,

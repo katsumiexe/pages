@@ -12,7 +12,7 @@ $(function(){
 	}
 
 	
-	$('.main_fall').append(Tag):
+	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);
 	function Fall(){
 		S +=1;

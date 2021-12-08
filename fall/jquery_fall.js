@@ -12,9 +12,7 @@ $(function(){
 		$('.main_fall').css("positon") != "fixed"){ 
 		$('.main_fall').css("positon","relative");
 	}
-	
-
-console.log(Tag);
+console.log($('.main_fall').css("positon"));
 
 	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);

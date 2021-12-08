@@ -1,14 +1,15 @@
 $(function(){ 
+	var S=0;
 	for(var T1=0; T1<30;T1++){
 		var T2=T1 % 4;
-		Tag="<img id=\"f"+T1+"\" src=\"https://katsumiexe.github.io/fall/img/b"+T2+".png\" style=\"position:absolute;top:-20px;\">"
+		Tag="<img id=\"f"+T1+"\" src=\"https://katsumiexe.github.io/pages/fall/img/b"+T2+".png\" style=\"position:absolute;top:-20px;\">"
 	}
 
 	if( 
 		$('.main_fall').css("positon") != "relative" && 
 		$('.main_fall').css("positon") != "absolute" && 
 		$('.main_fall').css("positon") != "fixed"){ 
-		$('.main_fall').css("positon,relative");
+		$('.main_fall').css("positon","relative");
 	}
 	
 	$('.main_fall').append(Tag);

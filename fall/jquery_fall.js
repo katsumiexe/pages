@@ -13,6 +13,9 @@ $(function(){
 		$('.main_fall').css("positon","relative");
 	}
 	
+
+console.log(Tag);
+
 	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);
 	function Fall(){

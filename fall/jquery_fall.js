@@ -5,15 +5,12 @@ $(function(){
 		var T2=T1 % 4;
 		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" style=\"position:absolute;top:-50px;\">';
 	}
-
 	if( 
 		$('.main_fall').css("positon") != "relative" && 
 		$('.main_fall').css("positon") != "absolute" && 
 		$('.main_fall').css("positon") != "fixed"){ 
 		$('.main_fall').css("positon","relative");
 	}
-console.log($('.main_fall').css("positon"));
-
 	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);
 	function Fall(){

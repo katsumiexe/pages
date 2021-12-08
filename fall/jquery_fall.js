@@ -29,7 +29,6 @@ $(function(){
 			}
 		);
 
-
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,
 			progress:function() {

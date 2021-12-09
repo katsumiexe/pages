@@ -20,7 +20,7 @@ $(function(){
 		var Rnd_ed=Math.floor(Math.random() * 100)+20;
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
-
+console.log(Rnd_st);
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 

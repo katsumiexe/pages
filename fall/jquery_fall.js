@@ -16,8 +16,8 @@ $(function(){
 	function Fall(){
 		S +=1;
 		var N=S % 30;
-		var Rnd_st=Math.floor(Math.random() * 800)+300;
-		var Rnd_ed=Math.floor(Math.random() * 800)+300;
+		var Rnd_st=Math.floor(Math.random() * 1000)-200;
+		var Rnd_ed=Math.floor(Math.random() * 1000)-600;
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});

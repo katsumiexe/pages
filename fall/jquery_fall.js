@@ -20,6 +20,7 @@ $(function(){
 		var Rnd_ed=Math.floor(Math.random() * 100)+20;
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
+
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 /*
@@ -29,10 +30,8 @@ $(function(){
 			}
 		);
 */
-		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'})
-		.queue(function(){
-			$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
-		});
+		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
+		$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp);
 		
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,

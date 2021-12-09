@@ -23,7 +23,7 @@ $(function(){
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 
-		$('#f'+N).animate({'top':'-10vh'},0,
+		$('#base img').animate({'top':'-10vh','left':Rnd_st+'px'},0,
 			function(){
 				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'px'},Rnd_sp)
 			}

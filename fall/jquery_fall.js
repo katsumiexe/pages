@@ -30,7 +30,7 @@ $(function(){
 		);
 */
 		$.when(
-			$('.fall').css({'top':'10vh'});
+			$('.fall').css({'top':'-10vh'})
 		).done(function(){
 			$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 		});

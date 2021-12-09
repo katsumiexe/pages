@@ -13,44 +13,45 @@ $(function(){
 	}
 	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);
+
+
+	function Fall(){
+		var S +=1;
+		var N=S % 30;
+		var Rnd_st=Math.floor(Math.random() * 120)-20;
+		var Rnd_ed=Math.floor(Math.random() * 100)+20;
+		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
+		var Rnd_ro=Math.floor(Math.random() * 600)+400;
+
+	//		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
+	//		$('.fall').css({'top':'-10vh'});
+
+		$('#f'+N)
+			.animate({'top':'-5vh','left':Rnd_st+'vw'},0)
+			.animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp);
+
+	/*
+		$('.fall').animate({'top':'-5vh','left':Rnd_st+'vw'},1,
+			function(){
+				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
+			}
+		);
+	/*
+
+		$('.fall').css({'top':'-5vh'});
+		$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
+	*/	
+
+
+		$({deg:0}).animate({deg:Rnd_ro}, {
+			duration:Rnd_sp,
+			progress:function() {
+				$('#f'+N).css({
+					'transform':'rotate(' + this.deg + 'deg)',
+				});
+			},
+		});
+	}
 });
 
-
-function Fall(){
-	var S +=1;
-	var N=S % 30;
-	var Rnd_st=Math.floor(Math.random() * 120)-20;
-	var Rnd_ed=Math.floor(Math.random() * 100)+20;
-	var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
-	var Rnd_ro=Math.floor(Math.random() * 600)+400;
-
-//		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
-//		$('.fall').css({'top':'-10vh'});
-
-	$('#f'+N)
-		.animate({'top':'-5vh','left':Rnd_st+'vw'},0)
-		.animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp);
-
-/*
-	$('.fall').animate({'top':'-5vh','left':Rnd_st+'vw'},1,
-		function(){
-			$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
-		}
-	);
-/*
-
-	$('.fall').css({'top':'-5vh'});
-	$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
-*/	
-
-
-	$({deg:0}).animate({deg:Rnd_ro}, {
-		duration:Rnd_sp,
-		progress:function() {
-			$('#f'+N).css({
-				'transform':'rotate(' + this.deg + 'deg)',
-			});
-		},
-	});
-}
 

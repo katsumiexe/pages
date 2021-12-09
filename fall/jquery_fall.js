@@ -22,13 +22,18 @@ $(function(){
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
-
+/*
 		$('#f'+N).animate({'top':'-10vh','left':Rnd_st+'vw'},0,
 			function(){
 				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 			}
 		);
+*/
 		
+		$('#f'+N).$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
+		.queue(function(){
+			$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'})
+		});
 		
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,

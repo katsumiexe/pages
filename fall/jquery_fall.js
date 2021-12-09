@@ -14,7 +14,7 @@ $('.main_fall').css({'width':'100vw','overflow':'hidden'});
 		$('.main_fall').css("positon","relative");
 	}
 	$('.main_fall').append(Tag);
-	timerId = setInterval(Fall,800);
+	timerId = setInterval(Fall,400);
 
 
 	function Fall(){
@@ -22,7 +22,7 @@ $('.main_fall').css({'width':'100vw','overflow':'hidden'});
 		var N=S % 30;
 		var Rnd_st=Math.floor(Math.random() * 80);
 		var Rnd_ed=Math.floor(Math.random() * 80)+10;
-		var Rnd_sp=Math.floor(Math.random() * 10000)+5999;
+		var Rnd_sp=Math.floor(Math.random() * 12000)+3000;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 
 	//		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});

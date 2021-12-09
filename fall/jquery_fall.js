@@ -25,7 +25,7 @@ console.log(Rnd_st);
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 
-		$('#f'+N).animate({'top':'-5vh','left':Rnd_st+'vw'},0,
+		$('.fall').animate({'top':'-5vh','left':Rnd_st+'vw'},0,
 			function(){
 				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 			}

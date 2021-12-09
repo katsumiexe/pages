@@ -1,4 +1,5 @@
 $(function(){ 
+$('.main_fall').css({'width':'100vw','overflow','hidden'});
 	var S=0;
 	var Tag="";
 	var Ht=$('.main_fall').height()+20;

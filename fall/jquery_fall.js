@@ -24,13 +24,17 @@ console.log(Rnd_st);
 
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
-
+/*
 		$('.fall').animate({'top':'-5vh','left':Rnd_st+'vw'},0,
 			function(){
 				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 			}
 		);
-	
+*/	
+		$('.fall').css({'top':'-5vh'});
+		$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
+
+
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,
 			progress:function() {

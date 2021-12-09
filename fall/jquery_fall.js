@@ -16,7 +16,7 @@ $(function(){
 
 
 	function Fall(){
-		var S +=1;
+		S +=1;
 		var N=S % 30;
 		var Rnd_st=Math.floor(Math.random() * 120)-20;
 		var Rnd_ed=Math.floor(Math.random() * 100)+20;

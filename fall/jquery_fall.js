@@ -1,6 +1,7 @@
 $(function(){ 
 	var S=0;
 	var Tag="";
+	var Ht=$('.main_fall').height()+20;
 	for(var T1=0; T1<30;T1++){
 		var T2=T1 % 4;
 		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-5vh;left:'+Math.floor(Math.random() * 60)+20+'vw;\">';
@@ -28,7 +29,7 @@ $(function(){
 
 		$('#f'+N)
 			.animate({'top':'-5vh','left':Rnd_st+'vw'},0)
-			.animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp);
+			.animate({'top':Ht,'left':Rnd_ed+'vw'},Rnd_sp);
 
 	/*
 		$('.fall').animate({'top':'-5vh','left':Rnd_st+'vw'},1,

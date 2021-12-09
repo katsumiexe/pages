@@ -16,7 +16,6 @@ $('.main_fall').css({'width':'100vw','overflow':'hidden'});
 	$('.main_fall').append(Tag);
 	timerId = setInterval(Fall,400);
 
-
 	function Fall(){
 		S +=1;
 		var N=S % 30;

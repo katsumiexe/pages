@@ -3,7 +3,7 @@ $(function(){
 	var Tag="";
 	for(var T1=0; T1<30;T1++){
 		var T2=T1 % 4;
-		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-50px;\">';
+		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-5vh;\">';
 	}
 	if( 
 		$('.main_fall').css("positon") != "relative" && 
@@ -21,16 +21,16 @@ $(function(){
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 console.log(Rnd_st);
+
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 
-		$('#f'+N).animate({'top':'-10vh','left':Rnd_st+'vw'},0,
+		$('#f'+N).animate({'top':'-5vh','left':Rnd_st+'vw'},0,
 			function(){
 				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 			}
 		);
-
-		
+	
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,
 			progress:function() {

@@ -16,16 +16,16 @@ $(function(){
 	function Fall(){
 		S +=1;
 		var N=S % 30;
-		var Rnd_st=Math.floor(Math.random() * 1000)-200;
-		var Rnd_ed=Math.floor(Math.random() * 800);
+		var Rnd_st=Math.floor(Math.random() * 100)-20;
+		var Rnd_ed=Math.floor(Math.random() * 100)+20;
 		var Rnd_sp=Math.floor(Math.random() * 6000)+5999;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 //		$('#f'+N).css({'top':'-10vh','left':Rnd_st+'px'});
 //		$('.fall').css({'top':'-10vh'});
 
-		$('#base img').animate({'top':'-10vh','left':Rnd_st+'px'},0,
+		$('#base img').animate({'top':'-10vh','left':Rnd_st+'vw'},0,
 			function(){
-				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'px'},Rnd_sp)
+				$('#f'+N).animate({'top':'110vh','left':Rnd_ed+'vw'},Rnd_sp)
 			}
 		);
 

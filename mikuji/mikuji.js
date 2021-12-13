@@ -23,6 +23,7 @@ $(function(){
 console.log($('.main_mikuji').css("position"));
 
 	$('.mikuji_box_0').draggable({
+ 		containment: 'parent',
  		drag: function(e, ui) {
 			Tmp_deg += Tmp_deg_add;
 			if(Tmp_deg > 5){

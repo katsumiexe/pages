@@ -20,7 +20,7 @@ $(function(){
 		$('.main_mikuji').css("positon") != "fixed"){ 
 		$('.main_mikuji').css("positon","relative");
 	}
-
+console.log($('.main_mikuji').css("positon"));
 
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',

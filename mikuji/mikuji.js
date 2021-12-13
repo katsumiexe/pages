@@ -3,16 +3,16 @@ $(function(){
 	Tmp_deg_add=1
 
 	var Tmp="";
-	Tag +=<div class=\"mikuji_box_0\">";
-	Tag +=<img src=\"https://github.io/pages/mikuji/mikuji.png\" class=\"mikuji_img_0\">";
-	Tag +=<img id=\"m0\" src=\"https://github.io/pages/mikuji/mikuji_1.png\" class=\"mikuji_img_1\">";
-	Tag +=<img id=\"m1\" src=\"https://github.io/pages/mikuji/mikuji_2.png\" class=\"mikuji_img_1\">";
-	Tag +=<img id=\"m2\" src=\"https://github.io/pages/mikuji/mikuji_3.png\" class=\"mikuji_img_1\">";
-	Tag +=<img id=\"m3\" src=\"https://github.io/pages/mikuji/mikuji_4.png\" class=\"mikuji_img_1\">";
-	Tag +=<img src=\"./mikuji_t.png\" class=\"mikuji_img_2\">";
-	Tag +=</div>";
-	Tag +=<div class=\"mikuji_box_cover\"></div>";
-	$('.main_fall').append(Tag):
+	Tag +="<div class=\"mikuji_box_0\">";
+	Tag +="<img src=\"https://github.io/pages/mikuji/mikuji.png\" class=\"mikuji_img_0\">";
+	Tag +="<img id=\"m0\" src=\"https://github.io/pages/mikuji/mikuji_1.png\" class=\"mikuji_img_1\">";
+	Tag +="<img id=\"m1\" src=\"https://github.io/pages/mikuji/mikuji_2.png\" class=\"mikuji_img_1\">";
+	Tag +="<img id=\"m2\" src=\"https://github.io/pages/mikuji/mikuji_3.png\" class=\"mikuji_img_1\">";
+	Tag +="<img id=\"m3\" src=\"https://github.io/pages/mikuji/mikuji_4.png\" class=\"mikuji_img_1\">";
+	Tag +="<img src=\"./mikuji_t.png\" class=\"mikuji_img_2\">";
+	Tag +="</div>";
+	Tag +="<div class=\"mikuji_box_cover\"></div>";
+	$('.main_mikuji').append(Tag):
 
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',

@@ -12,7 +12,7 @@ $(function(){
 	Tag +="<img src=\"./mikuji_t.png\" class=\"mikuji_img_2\">";
 	Tag +="</div>";
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
-	$('.main_mikuji').append(Tag):
+	$('.main_mikuji').append(Tag);
 
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',

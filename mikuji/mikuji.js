@@ -14,6 +14,14 @@ $(function(){
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
 	$('.main_mikuji').append(Tag);
 
+	if( 
+		$('.main_mikuji').css("positon") != "relative" && 
+		$('.main_mikuji').css("positon") != "absolute" && 
+		$('.main_mikuji').css("positon") != "fixed"){ 
+		$('.main_mikuji').css("positon","relative");
+	}
+
+
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',
  		drag: function(e, ui) {

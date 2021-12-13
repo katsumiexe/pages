@@ -15,12 +15,12 @@ $(function(){
 	$('.main_mikuji').append(Tag);
 
 	if( 
-		$('.main_mikuji').css("positon") != "relative" && 
-		$('.main_mikuji').css("positon") != "absolute" && 
-		$('.main_mikuji').css("positon") != "fixed"){ 
-		$('.main_mikuji').css("positon","relative");
+		$('.main_mikuji').css("position") != "relative" && 
+		$('.main_mikuji').css("position") != "absolute" && 
+		$('.main_mikuji').css("position") != "fixed"){ 
+		$('.main_mikuji').css("position","relative");
 	}
-console.log($('.main_mikuji').css("positon"));
+console.log($('.main_mikuji').css("position"));
 
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',

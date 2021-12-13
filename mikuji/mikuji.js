@@ -2,7 +2,7 @@ $(function(){
 	Tmp_deg=0
 	Tmp_deg_add=1
 
-	var Tmp="";
+	var Tag="";
 	Tag +="<div class=\"mikuji_box_0\">";
 	Tag +="<img src=\"https://github.io/pages/mikuji/mikuji.png\" class=\"mikuji_img_0\">";
 	Tag +="<img id=\"m0\" src=\"https://github.io/pages/mikuji/mikuji_1.png\" class=\"mikuji_img_1\">";

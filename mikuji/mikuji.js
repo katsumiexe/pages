@@ -12,7 +12,9 @@ $(function(){
 	Tag +="<img src=\"https://katsumiexe.github.io/pages/mikuji/img/mikuji_t.png\" class=\"mikuji_img_2\">";
 	Tag +="</div>";
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
+
 	$('.main_mikuji').append(Tag);
+	$('.mikuji_box_0').draggable();
 
 	if( 
 		$('.main_mikuji').css("position") != "relative" && 

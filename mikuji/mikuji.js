@@ -1,8 +1,15 @@
 $(function(){ 
 	Tmp_deg=0
 	Tmp_deg_add=1
-
 	var Tag="";
+
+	if( 
+		$('.main_mikuji').css("position") != "relative" && 
+		$('.main_mikuji').css("position") != "absolute" && 
+		$('.main_mikuji').css("position") != "fixed"){ 
+		$('.main_mikuji').css("position","relative");
+	}
+
 	Tag +="<div class=\"mikuji_box_0\">";
 	Tag +="<img src=\"https://katsumiexe.github.io/pages/mikuji/img/mikuji.png\" class=\"mikuji_img_0\">";
 	Tag +="<img id=\"m0\" src=\"https://katsumiexe.github.io/pages/mikuji/img/mikuji_1.png\" class=\"mikuji_img_1\">";
@@ -14,15 +21,6 @@ $(function(){
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
 
 	$('.main_mikuji').append(Tag);
-	$('.mikuji_box_0').draggable();
-
-	if( 
-		$('.main_mikuji').css("position") != "relative" && 
-		$('.main_mikuji').css("position") != "absolute" && 
-		$('.main_mikuji').css("position") != "fixed"){ 
-		$('.main_mikuji').css("position","relative");
-	}
-console.log($('.main_mikuji').css("position"));
 
 	$('.mikuji_box_0').draggable({
 // 		containment: 'parent',

@@ -72,7 +72,6 @@
 	background	:#a03080;
 	animation	:a_hand 2s infinite;
 	transform-origin: center bottom;
-
 }
 
 @keyframes a_hand{

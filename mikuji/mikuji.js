@@ -27,8 +27,8 @@ $(function(){
 	Base_W=$('.mikuji_box').width();
 	Base_H=$('.mikuji_box').height();
 
-console.og(Base_W);
-console.og(Base_H);
+console.log(Base_W);
+console.log(Base_H);
 
 	$('.hand').draggable({
  		containment: 'parent',

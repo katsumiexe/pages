@@ -1,5 +1,10 @@
 
+.main_mikuji{
+	width		:500px;
+	height		:400px;
+	background	:#ffe0f0;
 
+}
 
 .mikuji_box{
 	position	:relative;

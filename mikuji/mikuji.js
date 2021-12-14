@@ -24,8 +24,8 @@ $(function(){
 
 	$('.main_mikuji').prepend(Tag);
 
-	Base_W=$('.mikuji_box').width();
-	Base_H=$('.mikuji_box').height();
+	Base_W=$('.main_mikuji').width();
+	Base_H=$('.main_mikuji').height();
 
 console.log(Base_W);
 console.log(Base_H);

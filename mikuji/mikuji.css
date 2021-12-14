@@ -1,10 +1,7 @@
-
-
 .main_mikuji{
 	width		:500px;
 	height		:400px;
 	background	:#ffe0f0;
-
 }
 
 .mikuji_box{
@@ -63,7 +60,6 @@
 	z-index		:2;
 }
 
-
 .hand{
 	display		:block;
 	height		:30px;
@@ -77,7 +73,6 @@
 	background	:#90a040;
 	animation	:a_hand 2s infinite;
 	transform-origin: center bottom;
-
 }
 
 @keyframes a_hand{
@@ -87,5 +82,3 @@
 	15% {transform:rotate(0);}
 	100% {transform:rotate(0);}
 }
-
-

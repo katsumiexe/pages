@@ -16,7 +16,7 @@ $(function(){
  		containment: 'parent',
 		drag: function(e, ui) {
 
-			$('.hand').css('opacity','0.3');
+			$('.hand').css('opacity','0.6');
 
 			Tmp_deg += Tmp_deg_add;
 			if(Tmp_deg > 5){

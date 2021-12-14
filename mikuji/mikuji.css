@@ -62,17 +62,18 @@
 
 .hand{
 	display		:block;
-	height		:30px;
 	position	:absolute;
-	top			:100px;
-	left		:200px;
+	top			:0;
+	left		:0;
+	right		:0;
+	bottom		:0;
+	margin		:auto;
 	width		:30px;
+	height		:30px;
 	background	:#a03080;
-}
-
-.hand_on{
 	animation	:a_hand 2s infinite;
 	transform-origin: center bottom;
+
 }
 
 @keyframes a_hand{

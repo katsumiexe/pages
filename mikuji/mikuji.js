@@ -20,6 +20,8 @@ $(function(){
 	Tag +="</div>";
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
 
+	$('.main_mikuji').append(Tag);
+
 	Base_W=$('.mikuji_box_cover').width();
 	Base_h=$('.mikuji_box_cover').height();
 
@@ -41,10 +43,6 @@ console.log(Base_W);
 			if(Tmp_deg < -7){
 				Tmp_deg_add=Tmp_deg_add*(-1);	
 			}
-
-
-
-
 			$('.mikuji_box_0').css({'transform':'rotate('+Tmp_deg+'deg)'});
 		},
 

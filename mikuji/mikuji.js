@@ -27,6 +27,9 @@ $(function(){
 	Base_W=$('.mikuji_box').width();
 	Base_H=$('.mikuji_box').height();
 
+console.og(Base_W);
+console.og(Base_H);
+
 	$('.hand').draggable({
  		containment: 'parent',
 		drag: function(e, ui) {
@@ -44,8 +47,6 @@ $(function(){
 				Tmp_deg_add=Tmp_deg_add*(-1);	
 			}
 			$('.mikuji_box_0').css({'transform':'rotate('+Tmp_deg+'deg)','left':Box_b,'top':Box_a});
-
-
 		},
 
 		stop: function( event, ui ) {

@@ -2,6 +2,7 @@ $(function(){
 	Tmp_deg=0
 	Tmp_deg_add=1
 	var Tag="";
+
 /*
 	if( 
 		$('.main_mikuji').css("position") != "relative" && 
@@ -27,7 +28,7 @@ $(function(){
 	Base_H=$('.mikuji_box').height();
 
 	$('.hand').draggable({
- 		containment: 'parent',
+// 		containment: 'parent',
 		drag: function(e, ui) {
 /*
 			Box_a=	Math.floor(Base_H / 2 - ui.position.top);

@@ -21,7 +21,7 @@ $(function(){
 	Tag +="</div>";
 	Tag +="<div class=\"mikuji_box_cover\"></div>";
 
-	$('.main_mikuji').append(Tag);
+	$('.main_mikuji').prepend(Tag);
 
 	Base_W=$('.mikuji_box').width();
 	Base_H=$('.mikuji_box').height();

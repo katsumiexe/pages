@@ -15,7 +15,8 @@ $(function(){
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',
 		drag: function(e, ui) {
-			$(this).removeClass('hand_on');
+
+			$('.hand').css('opacity','0.3');
 
 			Tmp_deg += Tmp_deg_add;
 			if(Tmp_deg > 5){
@@ -29,6 +30,8 @@ $(function(){
 		},
 
 		stop: function( event, ui ) {
+			$('.hand').fadeOut(350);
+
 			Rnd=Math.floor(Math.random() * 4);
 			$('.mikuji_box_cover').show();
 			$({deg:Tmp_deg}).delay(200).animate({deg:-150}, {

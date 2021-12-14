@@ -71,6 +71,9 @@
 	margin		:auto;
 	width		:30px;
 	background	:#90a040;
+}
+
+.hand_on{
 	animation	:a_hand 2s infinite;
 	transform-origin: center bottom;
 }

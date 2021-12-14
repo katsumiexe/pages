@@ -30,6 +30,7 @@ $(function(){
 	$('.hand').draggable({
  		containment: 'parent',
 		drag: function(e, ui) {
+			$(this).removeClass('hand_on');
 
 			Box_a=	Math.floor(Base_H / 2 - ui.position.top);
 			Box_b=	Math.floor(Base_W / 2 - ui.position.left);
@@ -42,7 +43,7 @@ $(function(){
 			if(Tmp_deg < -7){
 				Tmp_deg_add=Tmp_deg_add*(-1);	
 			}
-			$('.mikuji_box_0').css({'transform':'rotate('+Tmp_deg+'deg)','Left':Box_b,'Top':Box_a});
+			$('.mikuji_box_0').css({'transform':'rotate('+Tmp_deg+'deg)','left':Box_b,'top':Box_a});
 
 
 		},

@@ -2,13 +2,14 @@ $(function(){
 	Tmp_deg=0
 	Tmp_deg_add=1
 	var Tag="";
-
+/*
 	if( 
 		$('.main_mikuji').css("position") != "relative" && 
 		$('.main_mikuji').css("position") != "absolute" && 
 		$('.main_mikuji').css("position") != "fixed"){ 
 		$('.main_mikuji').css("position","relative");
 	}
+*/
 
 	Tag +="<div class=\"mikuji_box_0\">";
 	Tag +="<img src=\"https://katsumiexe.github.io/pages/mikuji/img/mikuji.png\" class=\"mikuji_img_0\">";
@@ -23,7 +24,7 @@ $(function(){
 	$('.main_mikuji').append(Tag);
 
 	Base_W=$('.mikuji_box').width();
-	Base_h=$('.mikuji_box').height();
+	Base_H=$('.mikuji_box').height();
 
 	$('.hand').draggable({
  		containment: 'parent',

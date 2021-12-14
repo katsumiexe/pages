@@ -57,3 +57,22 @@
 	z-index		:2;
 }
 
+
+.hand{
+	display		:block;
+	height		:30px;
+	width		:30px;
+	background	:#90a040;
+	animation	:a_hand 2s infinite;
+	transform-origin: center bottom;
+}
+
+@keyframes a_hand{
+	0%	{transform:rotate(0);}
+	5%	{transform:rotate(15deg);}
+	10% {transform:rotate(-15deg);}
+	15% {transform:rotate(0);}
+	100% {transform:rotate(0);}
+}
+
+

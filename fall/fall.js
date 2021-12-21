@@ -24,7 +24,8 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 		var Rnd_sp=Math.floor(Math.random() * 12000)+3000;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 
-		$('#f'+N).animate({'top':'-5vh','left':Rnd_st+'vw'},0).animate({'top':Ht,'left':Rnd_ed+'vw'},Rnd_sp).fadeOut(500).fadeIn(0);
+//		$('#f'+N).animate({'top':'-2vh','left':Rnd_st+'vw'},0).animate({'top':Ht,'left':Rnd_ed+'vw'},Rnd_sp).fadeOut(1000).animate({'top':'-2vh','left':Rnd_st+'vw'},0);
+		$('#f'+N).animate({'top':'-2vh','left':Rnd_st+'vw'},0).animate({'top':Ht,'left':Rnd_ed+'vw'},Rnd_sp).animate({'top':'-2vh','left':Rnd_st+'vw'},0);
 
 		$({deg:0}).animate({deg:Rnd_ro}, {
 			duration:Rnd_sp,

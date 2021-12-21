@@ -44,6 +44,10 @@
 	margin		:5px auto;
 	z-index		:49;
 
+	background	:#110090;
+	width:90vw;
+	height:90vw;
+
 }
 .chu_ans{
 	position	:relative;

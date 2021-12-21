@@ -56,6 +56,9 @@ function T_shuffle(n){
 	if(Rt[n]<-359){
 		Rt[n]=0;
 	}
+
+console.log(Rt[n]);
+
 	Shuffle_r=Rt[n];			
 	Shuffle_x=cd_x[N2][Tmp[n]];			
 	Shuffle_y=cd_y[N2][Tmp[n]];			

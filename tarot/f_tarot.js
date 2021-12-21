@@ -46,16 +46,17 @@ cd_cnt[6]=cd_y[6].length;
 
 function T_shuffle(n){
 	var N2=n % 7;
+
 	Tmp[n]+=n % 2 +1;
 	if(Tmp[n]>cd_cnt[N2]){
 		Tmp[n]=0;
 	}	
 
-	Shuffle_r-=n % 3+1;
-	if(Shuffle_r<-359){
-		Shuffle_r=0;
+	Rt[n]-=n % 3+1;
+	if(Rt[n]<-359){
+		Rt[n]=0;
 	}
-
+	Shuffle_r=Rt[n];			
 	Shuffle_x=cd_x[N2][Tmp[n]];			
 	Shuffle_y=cd_y[N2][Tmp[n]];			
 	return(Shuffle_x,Shuffle_y,Shuffle_r);

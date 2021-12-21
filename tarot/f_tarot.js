@@ -38,8 +38,8 @@ var cd_y=[
 
 function T_shuffle(n){
 	var N2=n % 7;
-	Tmp[n]+=n%2+1;
-	if(Tmp[n]>cd_cnt[n2]){
+	Tmp[n]+=n % 2 +1;
+	if(Tmp[n]>cd_cnt[N2]){
 		Tmp[n]=0;
 	}	
 

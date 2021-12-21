@@ -37,45 +37,6 @@ var cd_y=[
 ]
 
 function T_shuffle(n){
-	for(var i=0;i<50;i++){
-		var No1		= Math.floor(Math.random() * 22);
-		var No2		= Math.floor(Math.random() * 22);
-		var Tmp_s	=Cd[No1];
-		 Cd[No1]	=Cd[No2];
-		 Cd[No2]	=Tmp_s;
-	}
-
-	cd_cnt[0]=cd_y[0].length;
-	cd_cnt[1]=cd_y[1].length;
-	cd_cnt[2]=cd_y[2].length;
-	cd_cnt[3]=cd_y[3].length;
-	cd_cnt[4]=cd_y[4].length;
-	cd_cnt[5]=cd_y[5].length;
-	cd_cnt[6]=cd_y[6].length;
-
-	for(var i=0;i<22;i++){
-		var i2	=i % 7;
-		Tmp[i]	= Math.floor(Math.random() * cd_cnt[i2]);
-		Rt[i]	= Math.floor(Math.random() * 250);
-
-if(Nr == 0){
-		Sei[i]	=1;
-}else{
-		Sei[i]	=Math.floor(Math.random() * 2);
-}
-
-		Tmp_X=cd_x[i2][Tmp[i]];			
-		Tmp_Y=cd_y[i2][Tmp[i]];
-		TmpImg=
-//		Tmp_i='url("../../../../wp/wp-content/plugins/chu_chu_tarot/img/cardimg_'+Cd[i]+'.jpg")';
-		Tmp_i='';
-
-		$('#c'+i).css({'top':Tmp_Y,'left':Tmp_X,'transform':'rotate('+Rt[i]+'deg)'});
-		$('#b'+i).css({'background-image':Tmp_i,'transform':'rotateY(180deg) '+S_G[Sei[i]]});
-	}
-
-
-
 	var N2=n % 7;
 	Tmp[n]+=n%2+1;
 	if(Tmp[n]>cd_cnt[n2]){

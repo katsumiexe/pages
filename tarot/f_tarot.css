@@ -197,7 +197,7 @@
 .card_bk:hover{
 	top:290px;
 }
-
+/*
 #c0{
 	top:40px;
 	left:40px;
@@ -211,7 +211,7 @@
 //	animation		:r2 6s linear infinite;
 	transform-origin: 0px 25px;
 }
-
+*/
 .chu_img_rev{
 	transform		:rotate(180deg);
 }

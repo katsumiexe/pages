@@ -67,13 +67,9 @@
 	margin		:auto;
 	z-index		:49;
 	background	:rgba(20,0,144,0.8);
-	width		:94vw;
-	height		:94vw;
+	width		:100vw;
+	height		:100vw;
 	color		:#fafafa;
-	padding		:10px;
-	font-size	:18px;
-	font-weight	:600;
-	line-height	:27px;
 }
 
 .chu_ans{
@@ -84,6 +80,7 @@
 	text-align	:left;
 	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
+	color:#908000;
 }
 
 .chu_ans_img{

@@ -9,6 +9,14 @@
 	100% { transform: rotate(0deg); }
 }
 
+@keyframes a_hand{
+	0%	{transform:rotate(0);}
+	5%	{transform:rotate(15deg);}
+	10% {transform:rotate(-15deg);}
+	15% {transform:rotate(0);}
+	100% {transform:rotate(0);}
+}
+
 .chu_box_back{
 	position	:fixed;
 	top			:-1vh;
@@ -148,6 +156,8 @@
 	width		:50px;
 	z-index		:100;
 	cursor		:pointer;
+	animation	:a_hand 2s infinite;
+	transform-origin: center bottom;
 }
 
 .chu_card{

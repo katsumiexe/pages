@@ -19,8 +19,12 @@
 }
 
 .chu_box{
-	position	:relative;
-	margin		:5px auto;
+	position	:absolute;
+	top			:0;
+	left		:0;
+	bottom		:0;
+	right		:0;
+	margin		:auto;
 	width		:400px;
 	height		:340px;
 }
@@ -325,6 +329,12 @@
 	font-size	:4vw;
 	line-height	:5vw;
 }
+
+.chu_box{
+	width		:90vw;
+	height		:77vw;
+}
+
 
 .chu_card{
 	height			:20vw;

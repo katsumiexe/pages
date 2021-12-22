@@ -9,12 +9,19 @@
 	100% { transform: rotate(0deg); }
 }
 
-.chu_box{
+.chu_box_back{
 	position	:fixed;
 	top			:-1vh;
 	left		:-10vw;
 	width		:120vw;
 	height		:120vh;
+}
+
+.chu_box{
+	position	:relative;
+	margin		:5px auto;
+	width		:500px;
+	height		:400px;
 }
 
 .chu_main{

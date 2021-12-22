@@ -120,23 +120,16 @@
 }
 
 .chu_hand{
-	display		:inline-block;
 	position	:absolute;
 	top			:0;
 	left		:0;
 	right		:0;
 	bottom		:0;
 	margin		:auto;
-	height		:50px;
-	line-height	:50px;
-	width		:50px;
-	text-align	:center;
-	color		:#d0a060;
+	height		:80px;
+	width		:80px;
 	z-index		:100;
-	font-size	:40px;
-	font-family	:at_icon;
 	cursor		:pointer;
-	text-shadow	:2px 2px 2px #303030;
 }
 
 .chu_card{

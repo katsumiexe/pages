@@ -10,8 +10,11 @@
 }
 
 .chu_box{
-	position	:relative;
-	min-height	:420px;
+	position	:fixed;
+	top			:-1vh;
+	left		:-10vw;
+	width		:120vw;
+	height		:120vh;
 }
 
 .chu_main{
@@ -25,17 +28,15 @@
 
 .chu_title{
 	margin		:10px auto;
-	background-size:contain;
 	width		:490px;
-	height		:68px;
-	text-align	:left;	
-	font-size	:24px;
+	height		:30px;
+	text-align	:center;	
+	font-size	:18px;
 	font-weight	:600;
-	color		:#303030;
-	line-height	:35px;
+	color		:#fafafa;
+	line-height	:30px;
 	border		:1px solid #303030;
-	background	:#ffe0a0;
-	padding		:5px;
+	background	:linear-gradient(135deg,#6080e0,#4060c0);
 }
 
 .chu_ans_box{
@@ -312,10 +313,9 @@
 
 .chu_title{
 	width		:90vw;
-	height		:11.5vw;
+	height		:5;
 	font-size	:4vw;
-	line-height	:6vw;
-	padding		:1vw;
+	line-height	:5vw;
 }
 
 .chu_card{

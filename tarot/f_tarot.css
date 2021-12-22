@@ -53,17 +53,21 @@
 .chu_ans_box{
 	display		:none;
 	position	:fixed;
-	top			:20px;
+	top			:120px;
 	left		:0;
 	right		:0;
 	margin		:auto;
 	z-index		:49;
-	background	:#110090;
+	background	:rgba(20,0,144,0.6);
 	width		:90vw;
 	height		:90vw;
-
-
+	color		:#fafafa;
+	padding		:10px;
+	font-size	:18px;
+	font-weight	:600;
+	line-height	:27px;
 }
+
 .chu_ans{
 	position	:relative;
 	margin		:5px auto;

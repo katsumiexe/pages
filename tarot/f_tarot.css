@@ -392,18 +392,18 @@
 	width			:62vw;
 	height			:7vw;
 	line-height		:7vw;
-	font-size		:4vw;
+	font-size		:4.5vw;
 	padding-left	:1vw;
+	font-weight:700;
 }
 
 .chu_ans_msg{
-	top				:10vw;
+	top				:8vw;
 	left			:32vw;
 	width			:62vw;
 	height			:5vw;
 	line-height		:5vw;
-	font-size		:3.5vw;
-	padding			:1vw;
+	font-size		:3.8vw;
 }
 
 .chu_ans_comm{

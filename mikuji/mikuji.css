@@ -1,7 +1,10 @@
 
 .main_mikuji{
+	positon:absolute;
+	margin		: 0 auto;
 	width		:500px;
 	height		:400px;
+	background	:#ffe0f0;
 	background	:#ffe0f0;
 	border		:2px solid #A58859;
 	background	:#ffe0c0;

@@ -45,6 +45,11 @@ $(function(){
 				},
 			});
 			$('#m' +Rnd).delay(800).animate({'bottom':Tmp},400);
+			$('.box_0' +Rnd).delay(2000).slideDown(1000);
 		}
 	});
 });
+
+
+
+

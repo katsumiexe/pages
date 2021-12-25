@@ -12,6 +12,7 @@ $(function(){
 	}
 */
 
+
 	$('.mikuji_box_0').draggable({
  		containment: 'parent',
 		drag: function(e, ui) {
@@ -32,6 +33,8 @@ $(function(){
 		stop: function( event, ui ) {
 			$('.hand').fadeOut(350);
 
+			Tmp=$('.mikuji_img_1').height();
+
 			Rnd=Math.floor(Math.random() * 4);
 			$('.mikuji_box_cover').show();
 			$({deg:Tmp_deg}).delay(200).animate({deg:-150}, {
@@ -42,7 +45,7 @@ $(function(){
 					});
 				},
 			});
-			$('#m' +Rnd).delay(800).animate({'bottom':'150px'},200);
+			$('#m' +Rnd).delay(800).animate({'bottom':Tmp},400);
 		}
 	});
 });

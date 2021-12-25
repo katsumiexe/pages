@@ -14,9 +14,8 @@ $(function(){
 
 
 	$('.mikuji_box_0').draggable({
- 		containment: 'parent',
+ 		containment: '.main_mikuji',
 		drag: function(e, ui) {
-
 			$('.hand').css('opacity','0.6');
 
 			Tmp_deg += Tmp_deg_add;

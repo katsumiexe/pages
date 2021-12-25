@@ -126,15 +126,9 @@
 }
 
 .hand{
-	position	:absolute;
-	left		:0;
-	right		:0;
-	bottom		:50px;
-	margin		:auto;
-	width		:85px;
-	height		:85px;
-	animation	:a_hand 2s infinite;
-	transform-origin: center bottom;
+	bottom		:10vw;
+	width		:10vw;
+	height		:10vw;
 }
 
 }

@@ -92,8 +92,10 @@
 	background	:linear-gradient(135deg,#ffffd0,#f0f0c0);
 	border		:2px solid #c8b880;
 	color		:#606060;
-	text-align	:center;
+	text-align	:left;
 	font-size	:18px;	
+	margin		:auto;
+	padding:10px;
 }
 
 
@@ -152,9 +154,10 @@
 }
 
 .main_comm{
-	width		:50vw;
-	height		:8vw;
-	line-height	:8vw;
+	padding:1vw;
+	width		:64vw;
+	height		:14vw;
+	line-height	:6vw;
 	border		:0.5vw solid #c8b880;
 	bottom		:2vw;
 	font-size	:4vw;

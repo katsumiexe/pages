@@ -28,7 +28,9 @@
 .mikuji_box_0{
 	position	:absolute;
 	top			:25px;
-	left		:75px;	
+	left		:0;	
+	right		:0;	
+	margin:auto;
 	width		:150px;
 	height		:250px;
 }
@@ -96,14 +98,13 @@
 
 .mikuji_box_0{
 	top			:10vw;
-	left		:0;	
-	width		:45vw;
-	height		:75vw;
+	width		:30vw;
+	height		:50vw;
 }
 
 .mikuji_img_0{
-	width		:45vw;
-	height		:75vw;
+	width		:30vw;
+	height		:50vw;
 }
 
 .mikuji_img_1{
@@ -113,11 +114,8 @@
 }
 
 .mikuji_img_2{
-	position:absolute;
-	bottom		:0;
-	left		:0;
-	width		:45vw;
-	height		:54px;
+	width		:30vw;
+	height		:37vw;
 }
 
 .mikuji_f0{

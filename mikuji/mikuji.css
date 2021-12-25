@@ -82,7 +82,7 @@
 .main_mikuji{
 	width		:80vw;
 	height		:80vw;
-	box-shadow	:20vw 20vw 20vw #E2CFAF inset,-20vw -20vw 20vw #E2CFAF inset,
+	box-shadow	:20vw 20vw 20vw #E2CFAF inset,-20vw -20vw 20vw #E2CFAF inset;
 }
 
 .mikuji_box{

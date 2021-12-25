@@ -1,7 +1,11 @@
+
 .main_mikuji{
 	width		:500px;
 	height		:400px;
 	background	:#ffe0f0;
+	border		:2px solid #A58859;
+	background	:#ffe0c0;
+	box-shadow	:100px 100px 100px #E2CFAF inset,-100px -100px 100px #E2CFAF inset,
 }
 
 .mikuji_box{
@@ -76,6 +80,7 @@
 .main_mikuji{
 	width		:80vw;
 	height		:80vw;
+	box-shadow	:20vw 20vw 20vw #E2CFAF inset,-20vw -20vw 20vw #E2CFAF inset,
 }
 
 .mikuji_box{

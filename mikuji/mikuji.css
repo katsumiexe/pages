@@ -72,6 +72,70 @@
 	transform-origin: center bottom;
 }
 
+@media screen and (max-width: 980px){
+.main_mikuji{
+	width		:80vw;
+	height		:80vw;
+}
+
+.mikuji_box{
+	width		:50vw;
+	height		:50vw;
+	border		:20px solid #E0D558;
+}
+
+.mikuji_box_cover{
+	width		:80vw;
+	height		:80vw;
+}
+
+.mikuji_box_0{
+	top			:10vw;
+	left		:0;	
+	width		:45vw;
+	height		:75vw;
+}
+
+.mikuji_img_0{
+	width		:45vw;
+	height		:75vw;
+}
+
+.mikuji_img_1{
+	left		:38px;
+	width		:22px;
+	height		:150px;
+}
+
+.mikuji_img_2{
+	position:absolute;
+	bottom		:0;
+	left		:0;
+	width		:45vw;
+	height		:54px;
+}
+
+.mikuji_f0{
+	position	:fixed;
+	top			:-50px;
+	left		:20px;
+	z-index		:2;
+}
+
+.hand{
+	position	:absolute;
+	left		:0;
+	right		:0;
+	bottom		:50px;
+	margin		:auto;
+	width		:85px;
+	height		:85px;
+	animation	:a_hand 2s infinite;
+	transform-origin: center bottom;
+}
+
+}
+
 @keyframes a_hand{
 	0%	{transform:rotate(0);}
 	5%	{transform:rotate(15deg);}

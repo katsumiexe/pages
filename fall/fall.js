@@ -21,7 +21,7 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 		var N=S % 30;
 		var Rnd_st=Math.floor(Math.random() * 140)-30;
 		var Rnd_ed=Math.floor(Math.random() * 140)-10;
-		var Rnd_sp=Math.floor(Math.random() * 15000)+3000;
+		var Rnd_sp=Math.floor(Math.random() * 16000)+10000;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 
 		$('#f'+N).animate({'top':'-2vh','left':Rnd_st+'vw'},0).animate({'top':Ht,'left':Rnd_ed+'vw'},Rnd_sp).animate({'top':'-2vh','left':Rnd_st+'vw'},0);

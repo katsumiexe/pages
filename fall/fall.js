@@ -5,7 +5,7 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 	var Ht=$('.main_fall').height()+50;
 	for(var T1=0; T1<50;T1++){
 		var T2=T1 % 4;
-		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-5vh;left:'+Math.floor(Math.random() * 60)+20+'vw;\">';
+		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-5vh;left:'+Math.floor(Math.random() * 60)+20+'vw; width:20px;height:20px;\">';
 	}
 	if( 
 		$('.main_fall').css("positon") != "relative" && 
@@ -20,7 +20,7 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 		S +=1;
 		var N=S % 50;
 		var Rnd_st=Math.floor(Math.random() * 80);
-		var Rnd_ed=Math.floor(Math.random() * 80)+20;
+		var Rnd_ed=Math.floor(Math.random() * 80)+10;
 		var Rnd_sp=Math.floor(Math.random() * 16000)+10000;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 

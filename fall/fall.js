@@ -1,5 +1,5 @@
 $(function(){ 
-$('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
+$('.main_fall').css({'width':'99vw','min-height':'90vh','overflow':'hidden'});
 	var S=0;
 	var Tag="";
 	var Ht=$('.main_fall').height()+50;

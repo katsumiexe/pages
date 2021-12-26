@@ -12,7 +12,6 @@ $(function(){
 	}
 */
 
-
 	$('.mikuji_box_0').draggable({
  		containment: '.main_mikuji',
 		drag: function(e, ui) {
@@ -49,6 +48,11 @@ $(function(){
 			$('.box_0').delay(2000).fadeIn(1000);
 		}
 	});
+
+	$('.box_0').on('click',function(){
+		$('.box_0').fadeOut(200);
+	});
+
 });
 
 

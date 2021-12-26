@@ -19,8 +19,8 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 	function Fall(){
 		S +=1;
 		var N=S % 30;
-		var Rnd_st=Math.floor(Math.random() * 80);
-		var Rnd_ed=Math.floor(Math.random() * 80)+10;
+		var Rnd_st=Math.floor(Math.random() * 100)-20;
+		var Rnd_ed=Math.floor(Math.random() * 100)+20;
 		var Rnd_sp=Math.floor(Math.random() * 15000)+3000;
 		var Rnd_ro=Math.floor(Math.random() * 600)+400;
 

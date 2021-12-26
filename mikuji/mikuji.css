@@ -4,11 +4,8 @@
 	margin		:0 auto;
 	width		:500px;
 	height		:400px;
-	background	:#ffe0f0;
-	background	:#fafafa;
-	border		:2px solid #A58859;
-	background	:#ffe0c0;
-	box-shadow	:100px 100px 100px #E2CFAF inset,-100px -100px 100px #E2CFAF inset;
+	background	:#fefee4;
+	box-shadow	:100px 100px 100px rgba(240,240,240,0.2) inset,-100px -100px 100px  rgba(240,240,240,0.2);
 }
 
 .mikuji_box{
@@ -101,9 +98,9 @@
 
 @media screen and (max-width: 980px){
 .main_mikuji{
-	width		:80vw;
-	height		:80vw;
-	box-shadow	:5vw 5vw 10vw rgba(250,230,200,0.8) inset,-5vw -5vw 10vw rgba(250,230,200,0.8) inset;
+	width		:92vw;
+	height		:92vw;
+
 }
 
 .mikuji_box{

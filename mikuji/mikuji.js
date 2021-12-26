@@ -33,7 +33,7 @@ $(function(){
 		stop: function( event, ui ) {
 			$('.hand').fadeOut(350);
 
-			Tmp=$('.mikuji_img_1').height()*1.5;
+			Tmp=$('.mikuji_img_1').height()*1;
 
 			Rnd=Math.floor(Math.random() * 4);
 			$('.mikuji_box_cover').show();

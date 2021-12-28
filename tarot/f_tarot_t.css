@@ -421,6 +421,7 @@
 }
 
 .chu_ans_ttl{
+	top				:38vw;
 	left			:0;
 	right			:0;
 	margin			:auto;
@@ -433,6 +434,8 @@
 }
 
 .chu_ans_msg{
+	top:auto;
+	left:auto;
 	bottom			:1vw;
 	right			:1vw;
 	width			:30vw;

@@ -83,6 +83,17 @@
 	color		:#604000;
 }
 
+.chu_ans_log{
+	position	:relative;
+	margin		:5px auto;
+	width		:500px;
+	height		:300px;
+	text-align	:left;
+	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
+	background	:linear-gradient(#ffffe0,#fffff0);
+	color		:#604000;
+
+}
 
 .chu_ans_img{
 	position	:absolute;
@@ -378,7 +389,7 @@
 .chu_ans{
 	margin			:1vw auto;
 	width			:80vw;
-	height			:47vw;
+	height			:56vw;
 }
 
 .chu_ans_img{
@@ -391,7 +402,7 @@
 .chu_ans_ttl{
 	top				:1vw;
 	left			:38vw;
-	width			:41vw;
+	width			:51vw;
 	height			:9vw;
 	line-height		:9vw;
 	font-size		:5vw;
@@ -401,18 +412,19 @@
 .chu_ans_msg{
 	top				:10vw;
 	left			:38vw;
-	width			:41vw;
-	height			:11vw;
-	line-height		:6vw;
-	font-size		:4vw;
+	width			:51vw;
+	height			:9vw;
+	line-height		:5vw;
+	font-size		:3.5vw;
 }
 
 .chu_ans_comm{
-	top				:22vw;
+	top				:20vw;
 	left			:38vw;
-	width			:41vw;
+	width			:51vw;
 	font-size		:3.5vw;
-	height			:30vw;
+	line-height		:5vw;
+	height			:32vw;
 	padding			:1vw;
 }
 

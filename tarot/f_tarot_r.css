@@ -338,7 +338,7 @@
 .card_title{
 	display:block;
 	font-weight:700;
-	font-size:18px
+	font-size:18px;
 	height:24px;
 	line-height:24px;
 
@@ -504,7 +504,7 @@
 }
 
 .card_title{
-	font-size		:4.5vw
+	font-size		:4.5vw;
 	height			:7vw;
 	line-height		:8vw;
 }

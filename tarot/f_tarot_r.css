@@ -506,13 +506,13 @@
 }
 
 .card_title{
-	font-size:4vw
-	height:6vw;
-	line-height:6vw;
+	font-size		:4.5vw
+	height			:7vw;
+	line-height		:8vw;
 }
 .card_star{
-	display:inline-block;
-	color:#ff3030;
+	display			:inline-block;
+	color			:#ff3030;
 }
 
 .card_log{

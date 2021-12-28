@@ -28,10 +28,7 @@
 
 .chu_box{
 	position	:relative;
-	top			:80px;
-	left		:0;
-	right		:0;
-	margin		:auto;
+	margin		:10px auto;
 	width		:400px;
 	height		:340px;
 }
@@ -381,8 +378,9 @@
 
 
 .chu_box{
+	margin		:2vw auto;
 	width		:90vw;
-	height		:77vw;
+	height		:90vw;
 	padding		:2vw 0;
 }
 

@@ -411,7 +411,7 @@
 .chu_ans{
 	margin			:auto;
 	width			:90vw;
-	height			:140vw;
+	height			:120vw;
 }
 
 .chu_ans_img{
@@ -455,7 +455,7 @@
 	top				:56vw;
 	left			:2vw;
 	width			:86vw;
-	height			:80vw;
+	height			:60vw;
 	overflow-y		:scroll;
 	padding			:1vw;
 }

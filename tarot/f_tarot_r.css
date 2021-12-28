@@ -55,7 +55,7 @@
 	color		:#fafafa;
 	line-height	:30px;
 	border		:1px solid #303030;
-	background	:linear-gradient(135deg,#6080e0,#4060c0);
+	background	:linear-gradient(135deg,#f0d040,#d0b020);
 }
 
 .chu_ans_box{
@@ -373,14 +373,17 @@
 
 .chu_title{
 	width		:90vw;
-	height		:5vw;
+	height		:8vw;
 	font-size	:4vw;
-	line-height	:5vw;
-}
+	line-height	:8vw;
+}	
+
+
 
 .chu_box{
 	width		:90vw;
 	height		:77vw;
+	padding		:2vw 0;
 }
 
 

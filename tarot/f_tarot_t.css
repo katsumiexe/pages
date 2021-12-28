@@ -361,7 +361,7 @@
 @media screen and (max-width: 560px) {
 .chu_main{
 	width		:90vw;
-	height		:90vw;
+	height		:72vw;
 }
 
 .chu_title{
@@ -371,12 +371,10 @@
 	line-height	:8vw;
 }	
 
-
-
 .chu_box,.chu_guard {
 	margin		:2vw auto;
 	width		:90vw;
-	height		:90vw;
+	height		:108vw;
 	padding		:2vw 0;
 }
 

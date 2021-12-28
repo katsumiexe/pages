@@ -5,7 +5,7 @@ $('.main_fall').css({'width':'100vw','min-height':'90vh','overflow':'hidden'});
 	var Ht=$('.main_fall').height()+50;
 	for(var T1=0; T1<50;T1++){
 		var T2=T1 % 4;
-		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-2vh;left:'+Math.floor(Math.random() * 40)+10+'vw; width:20px;height:20px;\">';
+		Tag += '<img id=\"f'+T1+'\" src=\"https://katsumiexe.github.io/pages/fall/img/b'+T2+'.png\" class=\"fall\" style=\"position:absolute;top:-2vh;left:20vw; width:20px;height:20px;\">';
 	}
 	if( 
 		$('.main_fall').css("positon") != "relative" && 

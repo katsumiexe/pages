@@ -70,8 +70,12 @@
 }
 
 .chu_ans{
-	position	:relative;
-	margin		:5px auto;
+	position	:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin		:auto;
 	width		:500px;
 	height		:300px;
 	text-align	:left;
@@ -81,14 +85,14 @@
 }
 
 .chu_ans_log{
-	position	:relative;
+	position	:absolute;
 	margin		:5px auto;
 	width		:500px;
 	height		:300px;
 	text-align	:left;
 	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
-	color		:#604000;
+	color		:#f0f0f0;
 
 }
 
@@ -423,6 +427,14 @@
 	line-height		:5vw;
 	height			:32vw;
 	padding			:1vw;
+}
+
+
+.chu_ans_log{
+	top				:55vw;
+	left			:1vw;
+	width			:78vw;
+	height			:30vw;
 }
 
 .chu_face{

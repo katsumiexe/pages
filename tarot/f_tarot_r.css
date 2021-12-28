@@ -64,7 +64,7 @@
 	top			:-10vh;
 	left		:-10vh;
 	z-index		:49;
-	background	:rgba(30,30,30,0.4);
+	background	:rgba(30,30,30,0.8);
 	width		:120vw;
 	height		:120vh;
 }
@@ -385,8 +385,8 @@
 
 .chu_ans{
 	margin			:1vw auto;
-	width			:80vw;
-	height			:56vw;
+	width			:90vw;
+	height			:120vw;
 }
 
 .chu_ans_img{

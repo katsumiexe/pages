@@ -61,15 +61,12 @@
 .chu_ans_box{
 	display		:none;
 	position	:fixed;
-	top			:120px;
-	left		:0;
-	right		:0;
-	margin		:auto;
+	top			:-10vh;
+	left		:-10vh;
 	z-index		:49;
-	background	:rgba(20,0,144,0.8);
-	width		:100vw;
-	height		:100vw;
-	color		:#fafafa;
+	background	:rgba(30,30,30,0.4);
+	width		:120vw;
+	height		:120vh;
 }
 
 .chu_ans{
@@ -473,7 +470,24 @@
 	width			:4vw;
 }
 
+.card_title{
+	display:block;
+	font-weight:700;
+	font-size:4vw
+	height:6vw;
+	line-height:6vw;
+}
+.card_star{
+	display:inline-block;
+	color:#ff3030;
+}
 
+.card_log{
+	display:block;
+	font-size	:3.5vw
+	line-height	:5.5vw;
+	margin		:0.5vw auto;
+}
 
 
 }

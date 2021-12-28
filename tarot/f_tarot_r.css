@@ -26,11 +26,20 @@
 	background	:linear-gradient(135deg,#405070,#203050);
 }
 
-.chu_box{
+.chu_box,.chu_guard{
 	position	:relative;
 	margin		:10px auto;
 	width		:400px;
 	height		:340px;
+}
+
+.chu_guard{
+	position	:absolute;
+	top			:0;
+	left		:0;
+	bottom		:0;
+	right		:0;
+	margin		:auto;
 }
 
 .chu_main{
@@ -139,19 +148,6 @@
 	background		:#fafafa;
 	border-top		:3px solid #909090;
 	border-bottom	:3px solid #909090;
-}
-
-.chu_guard{
-	position	:absolute;
-	top			:0;
-	left		:0;
-	bottom		:0;
-	right		:0;
-	margin		:auto;
-	width		:100vw;
-	max-width	:500px;
-	height		:400px;
-	z-index		:50;
 }
 
 .chu_hand{
@@ -365,7 +361,7 @@
 @media screen and (max-width: 560px) {
 .chu_main{
 	width		:90vw;
-	height		:72vw;
+	height		:90vw;
 }
 
 .chu_title{
@@ -377,12 +373,13 @@
 
 
 
-.chu_box{
+.chu_box,.chu_guard {{
 	margin		:2vw auto;
 	width		:90vw;
 	height		:90vw;
 	padding		:2vw 0;
 }
+
 
 
 .chu_card{

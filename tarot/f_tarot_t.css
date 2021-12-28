@@ -412,7 +412,7 @@
 }
 
 .chu_ans_img{
-	top				:1vw;
+	top				:2vw;
 	left			:0;
 	right			:0;
 	margin			:auto;
@@ -446,12 +446,13 @@
 }
 
 .chu_ans_log{
-	top				:56vw;
+	top				:50vw;
 	left			:2vw;
 	width			:86vw;
-	height			:60vw;
+	height			:66vw;
 	overflow-y		:scroll;
 	padding			:1vw;
+	border:1px solid #604000;
 }
 
 .chu_face{

@@ -84,7 +84,7 @@
 	bottom		:0;
 	margin		:auto;
 	width		:700px;
-	height		:600px;
+	height		:400px;
 	text-align	:left;
 	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
@@ -93,16 +93,15 @@
 
 .chu_ans_log{
 	position	:absolute;
-	top			:30px;
-	left		:160px;
+	top			:60px;
+	left		:180px;
 	margin		:5px auto;
 	width		:500px;
 	height		:300px;
 	text-align	:left;
-//	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
-	background	:linear-gradient(#ffffe0,#fffff0);
 	background	:#fafafa;
 	padding		:10px;
+	overflow-y	:scroll;
 }
 
 .chu_ans_img{
@@ -118,7 +117,7 @@
 	position		:absolute;
 	top				:5px;
 	left			:180px;
-	width			:310px;
+	width			:490px;
 	height			:40px;
 	line-height		:40px;
 	font-size		:20px;
@@ -131,11 +130,12 @@
 	display		:inline-block;
 	position	:absolute;
 	top			:5px;
-	left		:280px;
-	width		:100px;
+	left		:350px;
+	width		:150px;
 	height		:30px;
 	line-height	:30px;
 	font-size	:24px;
+	text-align:right;
 }
 
 .chu_ans_comm{

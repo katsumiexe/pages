@@ -78,13 +78,13 @@
 
 .chu_ans{
 	position	:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+	top			:0;
+	left		:0;
+	right		:0;
+	bottom		:0;
 	margin		:auto;
-	width		:500px;
-	height		:300px;
+	width		:700px;
+	height		:600px;
 	text-align	:left;
 	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
@@ -93,6 +93,8 @@
 
 .chu_ans_log{
 	position	:absolute;
+	top:30px;
+	left:160px;
 	margin		:5px auto;
 	width		:500px;
 	height		:300px;
@@ -100,7 +102,7 @@
 //	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
 	background	:#fafafa;
-
+	padding		:10px;
 }
 
 .chu_ans_img{
@@ -128,12 +130,12 @@
 .chu_ans_msg{
 	display		:inline-block;
 	position	:absolute;
-	top			:50px;
-	left		:180px;
-	width		:300px;
+	top			:5px;
+	left		:280px;
+	width		:100px;
 	height		:30px;
 	line-height	:30px;
-	font-size	:18px;
+	font-size	:24px;
 }
 
 .chu_ans_comm{

@@ -29,8 +29,8 @@
 .chu_box,.chu_guard{
 	position	:relative;
 	margin		:10px auto;
-	width		:400px;
-	height		:340px;
+	width		:500px;
+	height		:440px;
 }
 
 .chu_guard{
@@ -93,14 +93,17 @@
 
 .chu_ans_log{
 	position	:absolute;
+	top			:300px;
+	left		:10px;
 	margin		:5px auto;
-	width		:500px;
-	height		:300px;
+	width		:460px;
+	height		:240px;
 	text-align	:left;
 //	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
 	background	:#fafafa;
-
+	padding		:10px;
+	overflow-y	:scroll;
 }
 
 .chu_ans_img{

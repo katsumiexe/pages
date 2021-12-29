@@ -16,7 +16,7 @@ $(function(){
  		containment: '.main_mikuji',
 		drag: function(e, ui) {
 			$('.hand').css('opacity','0.6');
-			$('.main_comm').fadeOut(600);
+			$('.main_comm,.alert').fadeOut(600);
 
 			Tmp_deg += Tmp_deg_add;
 			if(Tmp_deg > 5){

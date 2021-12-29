@@ -84,7 +84,7 @@
 	bottom:0;
 	margin		:auto;
 	width		:500px;
-	height		:300px;
+	height		:580px;
 	text-align	:left;
 	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
 	background	:linear-gradient(#ffffe0,#fffff0);
@@ -144,8 +144,8 @@
 	position		:absolute;
 	top				:85px;
 	left			:180px;
-	width			:310px;
-	height			:210px;
+	width			:300px;
+	height			:195px;
 	font-size		:16px;
 	line-height		:22px;
 	padding			:5px;

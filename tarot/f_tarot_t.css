@@ -105,11 +105,12 @@
 }
 
 .chu_ans_img{
-	position	:absolute;
-	top			:5px;
-	left		:5px;
-	width		:165px;
-	height		:290px;
+	position		:absolute;
+	top				:5px;
+	left			:5px;
+	width			:165px;
+	height			:290px;
+	border			:2px solid #c8b880;
 }
 
 .chu_ans_ttl{
@@ -419,6 +420,7 @@
 	right			:2vw;
 	width			:24vw;
 	height			:36vw;
+	border			:2px solid #c8b880;
 }
 
 .chu_ans_ttl{

@@ -423,14 +423,14 @@
 }
 
 .chu_ans_ttl{
-	top				:38vw;
+	top				:34vw;
 	left			:0;
 	right			:0;
 	margin			:auto;
-	width			:70vw;
+	width			:86vw;
 	height			:8vw;
 	line-height		:8vw;
-	font-size		:4vw;
+	font-size		:5vw;
 	text-align		:left;
 	padding-left	:1vw;
 }
@@ -448,10 +448,10 @@
 }
 
 .chu_ans_log{
-	top				:50vw;
+	top				:42vw;
 	left			:2vw;
 	width			:86vw;
-	height			:66vw;
+	height			:75vw;
 	overflow-y		:scroll;
 	padding			:1vw;
 	border:1px solid #604000;

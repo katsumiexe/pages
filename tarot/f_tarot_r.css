@@ -78,10 +78,10 @@
 
 .chu_ans{
 	position	:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
+	top			:0;
+	left		:0;
+	right		:0;
+	bottom		:0;
 	margin		:auto;
 	width		:500px;
 	height		:580px;
@@ -134,18 +134,19 @@
 	top			:50px;
 	left		:180px;
 	width		:300px;
-	height		:30px;
+	height		:60px;
 	line-height	:30px;
 	font-size	:18px;
+	padding:5px;
 }
 
 .chu_ans_comm{
 	display			:inline-block;
 	position		:absolute;
-	top				:85px;
+	top				:115px;
 	left			:180px;
 	width			:300px;
-	height			:195px;
+	height			:165px;
 	font-size		:16px;
 	line-height		:22px;
 	padding			:5px;

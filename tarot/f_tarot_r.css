@@ -137,7 +137,7 @@
 	height		:60px;
 	line-height	:30px;
 	font-size	:18px;
-	padding:5px;
+	padding		:5px;
 }
 
 .chu_ans_comm{
@@ -438,18 +438,18 @@
 	top				:10vw;
 	left			:38vw;
 	width			:51vw;
-	height			:9vw;
+	height			:11vw;
 	line-height		:5vw;
 	font-size		:3.5vw;
 }
 
 .chu_ans_comm{
-	top				:20vw;
+	top				:22vw;
 	left			:38vw;
 	width			:51vw;
 	font-size		:3.5vw;
 	line-height		:5vw;
-	height			:35vw;
+	height			:33vw;
 	padding			:1vw;
 }
 

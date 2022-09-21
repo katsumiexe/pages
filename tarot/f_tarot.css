@@ -84,13 +84,19 @@
 }
 
 
-.chu_ans_img{
+.chu_ans_img,.chu_ans_img_r{
 	position	:absolute;
 	top			:5px;
 	left		:5px;
 	width		:165px;
 	height		:290px;
+	box-shadow	:2px 2px 2px rgba(30,30,30,0.5);
 }
+
+.chu_ans_img_r{
+	transform:rotate(180deg);
+}
+
 
 .chu_ans_ttl{
 	display			:inline-block;

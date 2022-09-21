@@ -1,0 +1,480 @@
+@keyframes r1 {
+	0%   { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes r2 {
+	0%   { transform: rotate(0deg); }
+	50% { transform: rotate(-260deg); }
+	100% { transform: rotate(0deg); }
+}
+
+@keyframes a_hand{
+	0%	{transform:rotate(0);}
+	5%	{transform:rotate(15deg);}
+	10% {transform:rotate(-15deg);}
+	15% {transform:rotate(0);}
+	100% {transform:rotate(0);}
+}
+
+.chu_box_back{
+	position	:fixed;
+	top			:-1vh;
+	left		:-10vw;
+	width		:120vw;
+	height		:120vh;
+	background	:linear-gradient(135deg,#405070,#203050);
+}
+
+.chu_box{
+	position	:absolute;
+	top			:80px;
+	left		:0;
+	right		:0;
+	margin		:auto;
+	width		:500px;
+	height		:400px;
+}
+
+.chu_main{
+	position	:relative;
+	margin		:5px auto;
+	background-size:contain;
+	width		:500px;
+	height		:400px;
+	text-align	:center;	
+}
+
+.chu_title{
+	margin		:10px auto;
+	width		:490px;
+	height		:30px;
+	text-align	:center;	
+	font-size	:18px;
+	font-weight	:600;
+	color		:#fafafa;
+	line-height	:30px;
+	border		:1px solid #303030;
+	background	:linear-gradient(135deg,#6080e0,#4060c0);
+}
+
+.chu_ans_box{
+	display		:none;
+	position	:fixed;
+	top			:120px;
+	left		:0;
+	right		:0;
+	margin		:auto;
+	z-index		:49;
+	background	:rgba(20,0,144,0.8);
+	width		:100vw;
+	height		:100vw;
+	color		:#fafafa;
+}
+
+.chu_ans{
+	position	:relative;
+	margin		:5px auto;
+	width		:500px;
+	height		:300px;
+	text-align	:left;
+	box-shadow	:-5px -5px 80px 10px rgba(220,150,50,0.3) inset, 5px 5px 50px 10px rgba(220,150,50,0.3) inset;
+	background	:linear-gradient(#ffffe0,#fffff0);
+	color		:#604000;
+}
+
+.chu_ans_img,.chu_ans_img_r{
+	position	:absolute;
+	top			:5px;
+	left		:5px;
+	width		:165px;
+	height		:290px;
+	box-shadow	:2px 2px 2px rgba(30,30,30,0.5);
+}
+
+.chu_ans_img_r{
+	transform:rotate(180deg);
+}
+
+
+.chu_ans_ttl{
+	display			:inline-block;
+	position		:absolute;
+	top				:5px;
+	left			:180px;
+	width			:310px;
+	height			:40px;
+	line-height		:40px;
+	font-size		:20px;
+	padding-left	:10px;
+	border-bottom	:5px double #c09000;
+	font-weight		:700;
+}
+
+.chu_ans_msg{
+	display		:inline-block;
+	position	:absolute;
+	top			:50px;
+	left		:180px;
+	width		:300px;
+	height		:30px;
+	line-height	:30px;
+	font-size	:18px;
+}
+
+.chu_ans_comm{
+	display			:inline-block;
+	position		:absolute;
+	top				:85px;
+	left			:180px;
+	width			:310px;
+	height			:210px;
+	font-size		:16px;
+	line-height		:22px;
+	padding			:5px;
+	background		:#fafafa;
+	border-top		:3px solid #909090;
+	border-bottom	:3px solid #909090;
+}
+
+.chu_guard{
+	position	:absolute;
+	top			:0;
+	left		:0;
+	bottom		:0;
+	right		:0;
+	margin		:auto;
+	width		:100vw;
+	max-width	:500px;
+	height		:400px;
+	z-index		:50;
+}
+
+.chu_hand{
+	position	:absolute;
+	top			:0;
+	left		:0;
+	right		:0;
+	bottom		:0;
+	margin		:auto;
+	height		:50px;
+	width		:50px;
+	z-index		:100;
+	cursor		:pointer;
+	animation	:a_hand 2s infinite;
+	transform-origin: center bottom;
+}
+
+.chu_card{
+	perspective		:150rem;
+	display			:inline-block;
+	position		:absolute;
+	height			:140px;
+	width			:91px;
+	border-radius	:5px;
+	transform-origin:center;
+	z-index			:12;
+}
+
+.chu_card_f,.chu_card_b{
+	transition	:.8s;
+	position	: absolute;
+	top			: 0;
+	left		: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius	:5px;
+}
+
+.chu_card_f{
+	background	:linear-gradient(#8040b0,#400080);
+	height		:130px;
+	width		:85px;
+	border		:5px solid #f5f5f5;
+}
+
+.chu_card_b{
+	height			:130px;
+	width			:85px;
+	border			:5px solid #f5f5f5;
+	background-size	:cover;
+	transform		:rotateY(180deg);
+}
+
+.chu_card_ps{
+	display			:inline-block;
+	position		:absolute;
+	height			:140px;
+	width			:85px;
+	background		:rgba(90,60,10,0.2);
+	border-radius	:5px;
+}
+
+#p1{
+	top:15%;
+	left:10%;
+}
+
+#p2{
+	top:15%;
+	left:30%;
+}
+
+#p3{
+	top:15%;
+	left:50%;
+}
+
+.card_bk:hover{
+	top:290px;
+}
+/*
+#c0{
+	top:40px;
+	left:40px;
+//	animation		:r1 10s linear infinite;
+	transform-origin: 0px 25px;
+}
+
+#c1{
+	top:40px;
+	right:40px;
+//	animation		:r2 6s linear infinite;
+	transform-origin: 0px 25px;
+}
+*/
+.chu_img_rev{
+	transform		:rotate(180deg);
+}
+
+.chu_face{
+	display			:inline-block;
+	position		:absolute;
+	top				:10px;
+	right			:10px;
+	font-weight		:700;
+	font-size		:16px;
+	height			:25px;
+	line-height		:25px;
+	width			:30px;
+	color			:#fafafa;
+	text-shadow		:1px 1px 0px #303030;	
+	border-radius	:5px;
+	text-align		:center;
+}
+
+.chu_result_box{
+	display			:inline-block;
+	position		:relative;
+	margin			:5px auto;
+	width			:500px;
+	background		:#00a0f0;
+}
+
+.chu_result_block{
+	display			:block;
+	positon			:relative;
+	width			:500px;
+	height			:80px;
+	background		:#d09030;
+}
+
+.chu_result_img{
+	position		:absolute;
+	top				:0;
+	left			:0;
+	height			:80px;
+	width			:80px;
+}
+
+.chu_result_name{
+	display			:inline-block;
+	position		:absolute;
+	top				:0;
+	left			:90px;
+	height			:40px;
+	width			:400px;
+	line-height		:40px;
+	font-size		:24px;
+	font-weight		:700;
+}
+
+.chu_result_link{
+	display			:inline-block;
+	position		:absolute;
+	top				:40px;
+	left			:80px;
+	height			:40px;
+	width			:420px;
+	line-height		:40px;
+	font-size		:24px;
+	font-weight		:700;
+	background		:#d0d0d0;
+	color			:#fafafa;
+}
+
+.chu_result_al_a{
+	display			:inline-block;
+	position		:absolute;
+	top				:0;
+	right			:0;
+	height			:40px;
+	width			:40px;
+}
+
+.chu_result_al_b{
+	display			:inline-block;
+	position		:absolute;
+	top				:10px;
+	right			:10px;
+	height			:20px;
+	width			:20px;
+	border-right	:1px solid #303030;
+	border-top		:1px solid #303030;
+	transform		:rotate(-45deg);
+	transform-origin:center;
+}
+
+
+/*-------------------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+.chu_main{
+	width		:90vw;
+	height		:72vw;
+}
+
+.chu_title{
+	width		:90vw;
+	height		:5vw;
+	font-size	:4vw;
+	line-height	:5vw;
+}
+
+.chu_box{
+	width		:90vw;
+	height		:77vw;
+}
+
+
+.chu_card{
+	height			:20vw;
+	width			:13vw;
+	border-radius	:5px;
+}
+
+.chu_card_f{
+	height		:18vw;
+	width		:11vw;
+	border		:1vw solid #f5f5f5;
+}
+
+.chu_card_b{
+	height		:18vw;
+	width		:11vw;
+	border		:1vw solid #f5f5f5;
+}
+
+.chu_card_ps{
+	height			:20vw;
+	width			:13vw;
+	border-radius	:1vw;
+}
+
+.chu_ans{
+	margin			:1vw auto;
+	width			:98vw;
+	height			:47vw;
+}
+
+.chu_ans_img{
+	top				:1vw;
+	left			:1vw;
+	width			:30vw;
+	height			:45vw;
+}
+
+.chu_ans_ttl{
+	top				:1vw;
+	left			:32vw;
+	width			:62vw;
+	height			:7vw;
+	line-height		:7vw;
+	font-size		:4.5vw;
+	padding-left	:1vw;
+}
+
+.chu_ans_msg{
+	top				:8vw;
+	left			:32vw;
+	width			:62vw;
+	height			:5vw;
+	line-height		:5vw;
+	font-size		:3.8vw;
+}
+
+.chu_ans_comm{
+	top				:15vw;
+	left			:32vw;
+	width			:64vw;
+	height			:31vw;
+	font-size		:3vw;
+	padding			:1vw;
+}
+
+.chu_face{
+	top				:1vw;
+	left			:1vw;
+}
+
+
+.chu_result_block{
+	width			:90vw;
+	height			:16vw;
+}
+
+.chu_result_img{
+	height			:16vw;
+	width			:16vw;
+}
+
+.chu_result_name{
+	left		:17vw;
+	height		:8vw;
+	width		:70vw;
+	line-height	:8vw;
+	font-size	:4vw;
+}
+
+.chu_result_link{
+	top				:8vw;
+	left			:16vw;
+	height			:8vw;
+	width			:74vw;
+	line-height		:8vw;
+	font-size		:4vw;
+}
+
+.chu_result_al_a{
+	height			:8vw;
+	width			:8vw;
+}
+
+.chu_result_al_b{
+	top				:2vw;
+	right			:2vw;
+	height			:4vw;
+	width			:4vw;
+}
+
+
+
+
+}
+
+.f1{
+	background:linear-gradient(#90a0ff,#6080ff);
+}
+
+.f0{
+	background:linear-gradient(#ffa0b0,#d08090);
+}

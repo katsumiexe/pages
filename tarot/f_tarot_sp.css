@@ -112,14 +112,14 @@
 }
 
 .chu_ans_msg{
-	display		:inline-block;
-	position	:absolute;
-	top			:50px;
-	left		:180px;
-	width		:300px;
-	height		:30px;
-	line-height	:30px;
-	font-size	:18px;
+	display			:inline-block;
+	position		:absolute;
+	top				:50px;
+	left			:180px;
+	width			:300px;
+	height			:30px;
+	line-height		:30px;
+	font-size		:18px;
 }
 
 .chu_ans_comm{
@@ -258,7 +258,7 @@
 	line-height		:25px;
 	width			:30px;
 	color			:#fafafa;
-	text-shadow		:1px 1px 0px #303030;	
+	text-shadow		:1px 1px 0px #303030;
 	border-radius	:5px;
 	text-align		:center;
 }
@@ -465,9 +465,6 @@
 	height			:4vw;
 	width			:4vw;
 }
-
-
-
 
 }
 

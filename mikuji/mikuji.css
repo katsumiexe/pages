@@ -95,6 +95,23 @@
 	padding:10px;
 }
 
+.alert{
+	position		:absolute;
+	bottom			:-1vw;
+	left			:0;
+	right			:0;
+	margin			:auto;
+	width			:24vw;
+	height			:9vw;
+	line-height		:3.5vw;
+	text-align		:center;
+	background		:#fafafa;
+	border			:0.5vw solid #90a0ff;
+	border-radius	:1vw;
+	color			:#303030;
+	font-size		:3vw;
+	padding			:1vw;
+}
 
 @media screen and (max-width: 980px){
 .main_mikuji{
@@ -158,6 +175,24 @@
 	border		:0.5vw solid #c8b880;
 	bottom		:2vw;
 	font-size	:4vw;
+}
+
+.alert{
+	position		:absolute;
+	bottom			:-1vw;
+	left			:0;
+	right			:0;
+	margin			:auto;
+	width			:24vw;
+	height			:9vw;
+	line-height		:3.5vw;
+	text-align		:center;
+	background		:#fafafa;
+	border			:0.5vw solid #90a0ff;
+	border-radius	:1vw;
+	color			:#303030;
+	font-size		:3vw;
+	padding			:1vw;
 }
 
 
